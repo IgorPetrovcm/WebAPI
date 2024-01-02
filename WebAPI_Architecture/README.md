@@ -31,5 +31,5 @@
 ![Alt text](ДиаграммаПрактики.png)
 
 + **Core** - Domain & Application
-+ **Persistance** - Infrastructure & Persistence(взаимодействие с базой данных)
++ **Infrastructure** - Persistence(взаимодействие с базой данных)
 + **Presentation** - Web API
