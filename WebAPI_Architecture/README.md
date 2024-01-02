@@ -33,3 +33,15 @@
 + **Core** - Domain & Application
 + **Infrastructure** - Persistence(взаимодействие с базой данных)
 + **Presentation** - Web API
+
+# Архитектура на деле или как выглядит шаблон моего проекта
+
+![Alt text](ProjectImages/ViewProject.png)
+
+Каждый слой иммет ссылку на слой ниже, кроме самого **Ядра** (Domain).
+
+**Domain** хранит сущность `Notes`:
+
+![Alt text](ProjectImages/Domain_Notes.png)
+
+Остальные слой пока что хранят лишь ссылку на предыдущий слой.
