@@ -1,6 +1,6 @@
 ﻿namespace Domain;
 
-public class Class1
+public class Note
 {
     public Guid UserId { get; set; }
     

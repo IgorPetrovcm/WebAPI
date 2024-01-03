@@ -1,0 +1,11 @@
+/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/WebAPI/Domain/bin/Debug/net7.0/Domain.deps.json
+/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/WebAPI/Domain/bin/Debug/net7.0/Domain.dll
+/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/WebAPI/Domain/bin/Debug/net7.0/Domain.pdb
+/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/WebAPI/Domain/obj/Debug/net7.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/WebAPI/Domain/obj/Debug/net7.0/Domain.AssemblyInfoInputs.cache
+/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/WebAPI/Domain/obj/Debug/net7.0/Domain.AssemblyInfo.cs
+/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/WebAPI/Domain/obj/Debug/net7.0/Domain.csproj.CoreCompileInputs.cache
+/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/WebAPI/Domain/obj/Debug/net7.0/Domain.dll
+/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/WebAPI/Domain/obj/Debug/net7.0/refint/Domain.dll
+/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/WebAPI/Domain/obj/Debug/net7.0/Domain.pdb
+/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/WebAPI/Domain/obj/Debug/net7.0/ref/Domain.dll
