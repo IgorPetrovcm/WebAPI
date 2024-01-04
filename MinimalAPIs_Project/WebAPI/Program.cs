@@ -1,11 +1,13 @@
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddScoped<IUserRepository,UserRepository>();
+
+builder.Services.AddScoped<UserRepository>();
+
 builder.Services.AddDbContext<UserDb>(options => 
 {
     options.UseSqlite(builder.Configuration.GetConnectionString("Sqlite"));
 });
-
-builder.Services.AddScoped<IUserRepository,UserRepository>();
 
 var app = builder.Build();
 
