@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "RmQOV0CBOpQN5zWmh3NrFw+ZfmPYeER6M/pYyGv1Rkw=",
+  "Source": "Project1",
+  "BasePath": "_content/Project1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Project1/wwwroot",
+      "Source": "Project1",
+      "ContentRoot": "/home/admin/General/WebAPI_FirstProject/WebAPI/Project1/wwwroot/",
+      "BasePath": "_content/Project1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/admin/General/WebAPI_FirstProject/WebAPI/Project1/wwwroot/index.html",
+      "SourceId": "Project1",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/admin/General/WebAPI_FirstProject/WebAPI/Project1/wwwroot/",
+      "BasePath": "_content/Project1",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/home/admin/General/WebAPI_FirstProject/WebAPI/Project1/wwwroot/js/index.js",
+      "SourceId": "Project1",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/admin/General/WebAPI_FirstProject/WebAPI/Project1/wwwroot/",
+      "BasePath": "_content/Project1",
+      "RelativePath": "js/index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/index.js"
+    }
+  ]
+}
