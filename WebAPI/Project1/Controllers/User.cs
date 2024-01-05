@@ -15,13 +15,19 @@ public class UserController : ControllerBase
         _context = context;
 
         _context.Database.EnsureCreated();
-
-        _context.Users.Add(new User{Name = "Igor", Age = 17});
     }
 
     [HttpGet]
     public async Task<List<User>> Get()
     {
         return await _context.Users.ToListAsync();
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> Add([FromBody] User user)
+    {
+        await _context.Users.AddAsync(user);
+        await _context.SaveChangesAsync();
+        return Created("api/user",user);
     }
 }
