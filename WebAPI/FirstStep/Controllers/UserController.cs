@@ -16,8 +16,6 @@ public class UserController : ControllerBase
 
         _context.Database.EnsureCreated();
 
-        _context.Users.Add(new User{Name = "Igor", Age = 18});
-
         _context.SaveChanges();
     }
 
@@ -32,5 +30,25 @@ public class UserController : ControllerBase
     {
         User user = await _context.Users.FirstOrDefaultAsync(x => x.Id == id) ;
         return user is not null ? Ok(user) : BadRequest();
+    }
+
+    [HttpGet]
+    public IActionResult GetUser([FromQuery]User user)
+    {
+        return user is not null ? Ok(user) : UnprocessableEntity();
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> AddUser([FromBody]User user)
+    {
+        if (user != null)
+        {
+            await _context.Users.AddAsync(user);
+            await _context.SaveChangesAsync();
+
+            return Created($"User/GetById/{user.Id}",user);
+        }
+        else 
+            return BadRequest();
     }
 }

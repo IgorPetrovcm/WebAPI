@@ -19,4 +19,9 @@ app.MapControllerRoute(
     pattern: "{controller=User}/{action=GetById}/{id:int}"
 );
 
+app.MapControllerRoute(
+    name: "AddUser",
+    pattern: "{controller=User}/{action=AddUser}"
+);
+
 app.Run();
