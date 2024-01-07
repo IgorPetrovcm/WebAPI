@@ -3,6 +3,7 @@ using  Application.Repositories;
 using Persistence.DataContext;
 using Domain;
 using Microsoft.EntityFrameworkCore;
+using SQLitePCL;
 
 namespace Persistence.Repositories;
 
@@ -54,5 +55,10 @@ public class UserDbRepository : IUserDbRepository
     public async Task SaveChangesAsync()
     {
         await _context.SaveChangesAsync();
+    }
+
+    public ApplicationContext GetContext()
+    {
+        return _context;
     }
 }
