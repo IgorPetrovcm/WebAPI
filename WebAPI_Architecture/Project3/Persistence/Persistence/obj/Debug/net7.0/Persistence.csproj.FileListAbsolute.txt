@@ -1,0 +1,15 @@
+/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/Project3/Persistence/Persistence/bin/Debug/net7.0/Persistence.deps.json
+/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/Project3/Persistence/Persistence/bin/Debug/net7.0/Persistence.dll
+/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/Project3/Persistence/Persistence/bin/Debug/net7.0/Persistence.pdb
+/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/Project3/Persistence/Persistence/bin/Debug/net7.0/Domain.dll
+/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/Project3/Persistence/Persistence/bin/Debug/net7.0/Domain.pdb
+/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/Project3/Persistence/Persistence/obj/Debug/net7.0/Persistence.csproj.AssemblyReference.cache
+/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/Project3/Persistence/Persistence/obj/Debug/net7.0/Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/Project3/Persistence/Persistence/obj/Debug/net7.0/Persistence.AssemblyInfoInputs.cache
+/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/Project3/Persistence/Persistence/obj/Debug/net7.0/Persistence.AssemblyInfo.cs
+/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/Project3/Persistence/Persistence/obj/Debug/net7.0/Persistence.csproj.CoreCompileInputs.cache
+/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/Project3/Persistence/Persistence/obj/Debug/net7.0/Persistence.csproj.CopyComplete
+/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/Project3/Persistence/Persistence/obj/Debug/net7.0/Persistence.dll
+/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/Project3/Persistence/Persistence/obj/Debug/net7.0/refint/Persistence.dll
+/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/Project3/Persistence/Persistence/obj/Debug/net7.0/Persistence.pdb
+/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/Project3/Persistence/Persistence/obj/Debug/net7.0/ref/Persistence.dll
