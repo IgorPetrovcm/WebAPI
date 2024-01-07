@@ -1,4 +1,4 @@
-using Persistence;
+using Persistence.DataContext;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
