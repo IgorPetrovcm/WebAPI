@@ -1,4 +1,4 @@
-function getIdElmentFromCollection(collection, text)
+function getIdElementFromCollection(collection, text)
 {
     for (element of collection)
     {
@@ -17,23 +17,32 @@ async function getAllUsers()
 
     if (response.ok == true)
     {
+        const fromUsers_Div = document.getElementById('fromUsers');
+        if (fromUsers_Div)
+            getAll_Div.removeChild(fromUsers_Div);
+        
         const users = await response.json();
 
+        let divFromUsers = document.createElement('div');
+        divFromUsers.id = 'fromUsers'
+        
         for (let user of users)
         {
             let p = document.createElement('p');
             p.innerText = `${user.name} ${user.age}`;
 
-            getAll.appendChild(p);
+            divFromUsers.appendChild(p);
         }
+        
+        getAll_Div.appendChild(divFromUsers);
     }
 }
 
 async function getUser()
 {
-    const collection = getUserDiv.children;
+    const collection = getUser_Div.children;
 
-    const id = getIdElmentFromCollection(collection, 'idInput');
+    const id = getIdElementFromCollection(collection, 'idInput');
 
     const response = await fetch(`api/Home/GetUser?id=${id}`,{
         method: 'GET',
@@ -42,20 +51,33 @@ async function getUser()
 
     if (response.ok == true)
     {
+        const fromUser_Div = document.getElementById('fromUser');
+        if (fromUser_Div)
+            getUser_Div.removeChild(fromUser_Div);
+        
+        let divGetUser = document.createElement('div');
+        divGetUser.id = 'fromUser';
+        
         const user = await response.json();
 
         let p = document.createElement('p');
         p.innerText = `${user.name} ${user.age}`;
-
-        getUserDiv.appendChild(p);
+        
+        divGetUser.appendChild(p);
+        
+        getUser_Div.appendChild(divGetUser);
     }
 }
 
+async function addUser()
+{
+    const response = await fetch('api/Home/Add',{
+        method: 'POST',
+        headers: {'Accept': 'application/json', 'Content-Type': 'application/json'},
+        body: JSON.stringify({
+            Name: getIdElementFromCollection(addUserDiv.children,'nameInput'),
+            Age: getIdElementFromCollection(addUserDiv.children,'ageInput')
+        })
+    })
+}
 
-const getAllDiv = document.getElementById('getAll');
-let buttonGetAll = getAllDiv.firstElementChild;
-buttonGetAll.onclick = getAllUsers;
-
-const getUserDiv = document.getElementById('getUser');
-const buttonGetUser = getUserDiv.firstElementChild;
-buttonGetUser.onclick = getUser;

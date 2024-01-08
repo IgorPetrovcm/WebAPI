@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "732smdBqjfynOCIVXeqBjcLESdhzoOyiUon9pqZFO48=",
+  "Hash": "fhQVHlCTD5/v441cgZJsaD7M9lrvKcdnGgl4NdFhTDw=",
   "Source": "WebAPI",
   "BasePath": "_content/WebAPI",
   "Mode": "Default",
@@ -17,6 +17,23 @@
   ],
   "Assets": [
     {
+      "Identity": "/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/Project3/WebAPI/wwwroot/css/Index.css",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/Project3/WebAPI/wwwroot/",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "css/Index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/Index.css"
+    },
+    {
       "Identity": "/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/Project3/WebAPI/wwwroot/js/index.js",
       "SourceId": "WebAPI",
       "SourceType": "Discovered",
@@ -32,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/index.js"
+    },
+    {
+      "Identity": "/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/Project3/WebAPI/wwwroot/js/main_objects.js",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/Project3/WebAPI/wwwroot/",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "js/main_objects.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/main_objects.js"
     }
   ]
 }

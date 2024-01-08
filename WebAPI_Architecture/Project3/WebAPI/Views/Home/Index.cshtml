@@ -2,15 +2,31 @@
     ViewBag.Title = "Home";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<div id="getAll">
+<div id="getAll" class="border">
     <button id="btn">Get all user</button>
 </div>
 <br/>
 
-<div id='getUser'>
+<div id='getUser' class="border">
     <button id="btn">Get user</button>
     <input type="number" id="idInput"/>
 </div>
 <br/>
 
+<div id="addUser" class="border">
+    <button id="btn">Create</button>
+    <br/>
+    <lable>Name</lable>
+    <input id="nameInput"/>
+    <br/>
+    <lable>Age</lable>
+    <input type="number" id="ageInput"/>
+</div>
+
+<div id="updateUser" class="border">
+    <button id="btn">Update</button>
+    <select id="listUsers"></select>
+</div>
+
 <script src="js/index.js"></script>
+<script src="js/main_objects.js"></script>

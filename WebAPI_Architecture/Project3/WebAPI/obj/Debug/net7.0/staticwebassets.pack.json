@@ -1,8 +1,16 @@
 {
   "Files": [
     {
+      "Id": "/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/Project3/WebAPI/wwwroot/css/Index.css",
+      "PackagePath": "staticwebassets/css/Index.css"
+    },
+    {
       "Id": "/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/Project3/WebAPI/wwwroot/js/index.js",
       "PackagePath": "staticwebassets/js/index.js"
+    },
+    {
+      "Id": "/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/Project3/WebAPI/wwwroot/js/main_objects.js",
+      "PackagePath": "staticwebassets/js/main_objects.js"
     },
     {
       "Id": "obj/Debug/net7.0/staticwebassets/msbuild.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props",

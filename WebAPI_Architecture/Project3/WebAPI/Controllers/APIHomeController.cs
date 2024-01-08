@@ -39,7 +39,6 @@ public class APIHomeController : ControllerBase
     {
         await _rep.AddUserAsync(user);
         await _rep.SaveChangesAsync();
-        Results.Created($"api/Home/Get?id={user.Id}",user);
     }
 
     [HttpPut]
