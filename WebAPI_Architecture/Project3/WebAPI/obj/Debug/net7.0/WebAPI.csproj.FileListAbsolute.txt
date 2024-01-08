@@ -62,3 +62,6 @@
 /home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/Project3/WebAPI/obj/Debug/net7.0/WebAPI.pdb
 /home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/Project3/WebAPI/obj/Debug/net7.0/WebAPI.genruntimeconfig.cache
 /home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/Project3/WebAPI/obj/Debug/net7.0/ref/WebAPI.dll
+/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/Project3/WebAPI/bin/Debug/net7.0/WebAPI.staticwebassets.runtime.json
+/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/Project3/WebAPI/obj/Debug/net7.0/WebAPI.RazorAssemblyInfo.cache
+/home/admin/General/WebAPI_FirstProject/WebAPI_Architecture/Project3/WebAPI/obj/Debug/net7.0/WebAPI.RazorAssemblyInfo.cs

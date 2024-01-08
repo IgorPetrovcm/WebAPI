@@ -33,9 +33,9 @@ public class UserDbRepository : IUserDbRepository
         else return;
     }
 
-    public async Task UpdateUserAsync(int id, User user)
+    public async Task UpdateUserAsync(User user)
     {
-        User updateUser = await _context.Users.FirstOrDefaultAsync(x => x.Id == id);
+        User updateUser = await _context.Users.FirstOrDefaultAsync(x => x.Id == user.Id);
 
         if (updateUser == null)
             return;
@@ -45,11 +45,9 @@ public class UserDbRepository : IUserDbRepository
         _context.Users.Update(updateUser);
     }
 
-    public async Task RemoveUserAsync(int id)
+    public async Task RemoveUserAsync(User user)
     {
-        User removeUser = await _context.Users.FirstOrDefaultAsync(x => x.Id == id);
-
-        _context.Users.Remove(removeUser);
+        _context.Users.Remove(user);
     }
 
     public async Task<int> SaveChangesAsync()

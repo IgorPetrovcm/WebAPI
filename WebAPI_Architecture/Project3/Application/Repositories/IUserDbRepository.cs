@@ -10,9 +10,9 @@ public interface IUserDbRepository
 
     Task AddUserAsync(User user);
 
-    Task UpdateUserAsync(int id, User user);
+    Task UpdateUserAsync(User user);
 
-    Task RemoveUserAsync(int id);
+    Task RemoveUserAsync(User user);
 
     Task<int> SaveChangesAsync();
 }
