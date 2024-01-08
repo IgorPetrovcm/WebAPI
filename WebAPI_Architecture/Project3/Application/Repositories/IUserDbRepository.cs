@@ -14,5 +14,5 @@ public interface IUserDbRepository
 
     Task RemoveUserAsync(int id);
 
-    Task SaveChangesAsync();
+    Task<int> SaveChangesAsync();
 }

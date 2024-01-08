@@ -2,17 +2,18 @@ using Microsoft.AspNetCore.Mvc;
 using Persistence.DataContext;
 using Persistence.Repositories;
 using Domain;
+using Application.Repositories;
 
 namespace WebAPI.Controllers;
 
 [ApiController]
-[Route("home")]
+[Route("Home/[action]")]
 public class HomeController : ControllerBase
 {
     private readonly ApplicationContext _context;
-    private readonly UserDbRepository _rep;
+    private readonly IUserDbRepository _rep;
 
-    public HomeController(ApplicationContext context, UserDbRepository rep)
+    public HomeController(ApplicationContext context, IUserDbRepository rep)
     {
         _context = context;
 

@@ -28,7 +28,7 @@ public class UserDbRepository : IUserDbRepository
 
     public async Task AddUserAsync(User user)
     {
-        if (user.Name == "")
+        if (user.Name != "")
             await _context.Users.AddAsync(user);
         else return;
     }
@@ -52,9 +52,10 @@ public class UserDbRepository : IUserDbRepository
         _context.Users.Remove(removeUser);
     }
 
-    public async Task SaveChangesAsync()
+    public async Task<int> SaveChangesAsync()
     {
-        await _context.SaveChangesAsync();
+        int result = await _context.SaveChangesAsync();
+        return result;
     }
 
     public ApplicationContext GetContext()

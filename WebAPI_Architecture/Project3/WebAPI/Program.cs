@@ -1,6 +1,7 @@
 using Persistence.DataContext;
 using Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
+using Application.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,7 +13,7 @@ builder.Services.AddDbContext<ApplicationContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("Sqlite"));
 });
 
-builder.Services.AddScoped<UserDbRepository>();
+builder.Services.AddScoped<IUserDbRepository,UserDbRepository>();
 
 var app = builder.Build();
 
