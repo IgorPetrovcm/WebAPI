@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Mi0+P7RdKPvACikicBuC54d9qKbErWD8r4+3XCv2IUX5dfvQp9Si18KPlzPgjGQnJCZUz+t/VSN2lN7XakWazA==",
+  "dgSpecHash": "Wfwz46P0unABOWS4Lu6yp2TgTHLXZymNSmgiarGMjNOOfrbqdA1D73wvdw7mu6m2JNQIXYYRrZ59le978MYFSQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\igorp\\Programming\\WebAPI\\WebAPI\\Authorization\\Authorization.Application\\Authorization.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\igorp\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\igorp\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

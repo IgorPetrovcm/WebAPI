@@ -1,11 +1,14 @@
 namespace Authorization.Application.Interfaces.Repository;
 
 using Authorization.Domain;
+using Authorization.Application.DTOs;
 
 
 public interface IUserRepository
 {
-    Task CreateUser();
+    bool IsUniqueUser(string login);
 
-    Task<User> GetUser();
+    Task<ResponseLoginDTO> Login(RequestLoginDTO requestLogin);
+
+    Task<User> Registeration(RequestRegisterationDTO requestRegisteration);
 }
