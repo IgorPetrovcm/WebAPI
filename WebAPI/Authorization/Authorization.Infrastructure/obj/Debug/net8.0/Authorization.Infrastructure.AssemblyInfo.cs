@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Authorization.Application")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Authorization.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac98f657da46e357727221f7a05f82eba43e5b5e")]
-[assembly: System.Reflection.AssemblyProductAttribute("Authorization.Application")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Authorization.Application")]
+[assembly: System.Reflection.AssemblyProductAttribute("Authorization.Infrastructure")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Authorization.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
