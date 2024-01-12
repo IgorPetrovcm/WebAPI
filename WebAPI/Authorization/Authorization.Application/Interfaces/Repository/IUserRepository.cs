@@ -6,7 +6,7 @@ using Authorization.Application.DTOs;
 
 public interface IUserRepository
 {
-    
+    void SetSecretKey(string sectionName, string valueName, string path);
     bool IsUniqueUser(string login);
 
     Task<ResponseLoginDTO> Login(RequestLoginDTO requestLogin);

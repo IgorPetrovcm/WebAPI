@@ -9,6 +9,10 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddRazorPages();
+
+builder.Services.AddRouting();
+
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<ApplicationContext>(options =>
@@ -21,6 +25,10 @@ builder.Services.AddTransient<IConfigurationManageService, ConfigurationManageSe
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 var app = builder.Build();
+
+app.MapControllers();
+
+app.UseStaticFiles();
 
 app.MapControllerRoute("default", "{controller=UserAuth}/{action=Register}");
 

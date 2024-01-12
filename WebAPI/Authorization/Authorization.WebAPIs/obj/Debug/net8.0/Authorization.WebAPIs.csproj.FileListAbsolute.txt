@@ -47,3 +47,4 @@ C:\Users\igorp\Programming\WebAPI\WebAPI\Authorization\Authorization.WebAPIs\obj
 C:\Users\igorp\Programming\WebAPI\WebAPI\Authorization\Authorization.WebAPIs\obj\Debug\net8.0\Authorization.WebAPIs.pdb
 C:\Users\igorp\Programming\WebAPI\WebAPI\Authorization\Authorization.WebAPIs\obj\Debug\net8.0\Authorization.WebAPIs.genruntimeconfig.cache
 C:\Users\igorp\Programming\WebAPI\WebAPI\Authorization\Authorization.WebAPIs\obj\Debug\net8.0\ref\Authorization.WebAPIs.dll
+C:\Users\igorp\Programming\WebAPI\WebAPI\Authorization\Authorization.WebAPIs\bin\Debug\net8.0\Authorization.WebAPIs.staticwebassets.runtime.json

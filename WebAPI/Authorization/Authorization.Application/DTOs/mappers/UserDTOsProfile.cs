@@ -8,7 +8,7 @@ public class LoginDTOProfile : Profile
 {
     public LoginDTOProfile()
     {
-        CreateMap<User, RequestLoginDTO>();
+        CreateMap<RequestLoginDTO, User>();
     }
 }
 
@@ -16,6 +16,6 @@ public class RegisterationDTOProfile : Profile
 {
     public RegisterationDTOProfile()
     {
-        CreateMap<User, RequestRegisterationDTO>();
+        CreateMap<RequestRegisterationDTO, User>();
     }
 }

@@ -12,20 +12,26 @@ using Authorization.Infrastructure.Services;
 
 
 [ApiController]
-[Route("api/UserAuth")]
+[Route("api/UserAuth/[action]")]
 public class ApiUserAuth : ControllerBase
 {
-    private IUserRepository _rep;
+    private readonly IUserRepository _rep;
+
+    private readonly ApplicationContext _context;
     
-    public ApiUserAuth(UserRepository rep, ConfigurationManageService config)
+    public ApiUserAuth(IUserRepository rep, ApplicationContext context)
     {
         rep.SetSecretKey("ApiSettings","SecretKey",
             "C:\\Users\\igorp\\Programming\\WebAPI\\WebAPI\\Authorization\\Authorization.WebAPIs\\appsettings.json");
-
+        
         _rep = rep;
+
+        _context = context;
+
+        _context.Database.EnsureCreated();
     }
     
-    [HttpPost("Login")]
+    [HttpPost]
     public async Task<IActionResult> Login([FromBody]RequestLoginDTO userRequest)
     {
         ResponseLoginDTO response = await _rep.Login(userRequest);
@@ -36,14 +42,14 @@ public class ApiUserAuth : ControllerBase
         return Ok(response);
     }
 
-    [HttpPost("Register")]
+    [HttpPost]
     public async Task<IActionResult> Register([FromBody]RequestRegisterationDTO userRequest)
     {
-        if (_rep.IsUniqueUser(userRequest.Login))
+        if (!_rep.IsUniqueUser(userRequest.Login))
         {
             return Ok(await _rep.Registeration(userRequest));
         }
-
-        return BadRequest(new { message = "Login is not unique" });
+        else
+            return BadRequest(new { message = "Login is not unique" });
     }
 }

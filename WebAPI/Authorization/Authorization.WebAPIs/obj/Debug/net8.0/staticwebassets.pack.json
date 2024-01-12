@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\igorp\\Programming\\WebAPI\\WebAPI\\Authorization\\Authorization.WebAPIs\\wwwroot\\js\\registeration.js",
+      "PackagePath": "staticwebassets\\js\\registeration.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Authorization.WebAPIs.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Authorization.WebAPIs.props",
+      "PackagePath": "build\\Authorization.WebAPIs.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Authorization.WebAPIs.props",
+      "PackagePath": "buildMultiTargeting\\Authorization.WebAPIs.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Authorization.WebAPIs.props",
+      "PackagePath": "buildTransitive\\Authorization.WebAPIs.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
