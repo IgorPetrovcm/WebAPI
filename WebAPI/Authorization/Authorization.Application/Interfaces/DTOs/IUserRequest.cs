@@ -1,6 +1,6 @@
 namespace Authorization.Application.Interfaces.DTOs;
 
-public interface IUserRequest
+public interface IUserRequestFeatures
 {
     string Login { get; set; }
     

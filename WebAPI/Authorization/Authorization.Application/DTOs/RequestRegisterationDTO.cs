@@ -3,7 +3,7 @@ namespace Authorization.Application.DTOs;
 using Authorization.Application.Interfaces.DTOs;
 
 
-public class RequestRegisterationDTO : IUserRequest
+public class RequestRegisterationDTO : IUserRequestFeatures
 {
     public string Login { get; set; }
     
