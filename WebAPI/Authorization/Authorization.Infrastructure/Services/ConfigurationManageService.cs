@@ -1,3 +1,5 @@
+using Authorization.Domain;
+
 namespace Authorization.Infrastructure.Services;
 
 using Authorization.Application.Interfaces.Services;
@@ -11,13 +13,13 @@ public class ConfigurationManageService : IConfigurationManageService
     {
         get { return _value; }
     } 
-    
-    public void SetConfiguration(string sectionName,string keyName, string pathToFileString)
+
+    public void SetConfiguration(ConfigurationEntity configEntity)
     {
-        IConfigurationBuilder configBuilder = new ConfigurationBuilder().AddJsonFile(pathToFileString);
+        IConfigurationBuilder configBuilder = new ConfigurationBuilder().AddJsonFile(configEntity.PathToFile);
 
         IConfigurationRoot config = configBuilder.Build();
 
-        _value = config.GetSection(sectionName)[keyName];
+        _value = config.GetSection(configEntity.SectionName)[configEntity.ValueName];
     }
 }

@@ -19,8 +19,10 @@ public class ApiUserAuth : ControllerBase
     
     public ApiUserAuth(UserRepository rep, ConfigurationManageService config)
     {
+        rep.SetSecretKey("ApiSettings","SecretKey",
+            "C:\\Users\\igorp\\Programming\\WebAPI\\WebAPI\\Authorization\\Authorization.WebAPIs\\appsettings.json");
+
         _rep = rep;
-        _rep._secrep
     }
     
     [HttpPost("Login")]

@@ -27,9 +27,18 @@ public class UserRepository : IUserRepository
         _context = context;
     }
 
-    public void SetSecretKey()
+    public void SetSecretKey(string sectionName, string valueName, string path)
     {
-        _secretKey = 
+        ConfigurationManageService configManage = new ConfigurationManageService();
+        
+        configManage.SetConfiguration(new ConfigurationEntity()
+        {
+            PathToFile = path,
+            ValueName = valueName,
+            SectionName = sectionName
+        });
+
+        _secretKey = configManage.Value;
     }
     
     public bool IsUniqueUser(string login)

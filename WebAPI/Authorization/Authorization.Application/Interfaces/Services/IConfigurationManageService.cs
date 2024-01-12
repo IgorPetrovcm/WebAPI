@@ -1,11 +1,11 @@
 namespace Authorization.Application.Interfaces.Services;
 
+using Authorization.Domain;
+
 public interface IConfigurationManageService
 {
     public string Value { get; }
     
-    void SetConfiguration(string sectionName, string keyName, string pathToFileString);
-
-    void SetConfiguration();
+    void SetConfiguration(ConfigurationEntity configEntity);
 
 }
