@@ -4,6 +4,7 @@ namespace WebApplication1.Controllers;
 
 using Microsoft.AspNetCore.Mvc;
 using Authorization.Application.Interfaces.Services; 
+using Authorization.Application.Interfaces.Repository;
 using Authorization.Application.DTOs;
 using Authorization.Persistence;
 using Authorization.Persistence.Repository;
@@ -14,12 +15,12 @@ using Authorization.Infrastructure.Services;
 [Route("api/UserAuth")]
 public class ApiUserAuth : ControllerBase
 {
-    private UserRepository _rep;
+    private IUserRepository _rep;
     
-    public ApiUserAuth(IConfigurationManageService config, ApplicationContext context)
+    public ApiUserAuth(UserRepository rep, ConfigurationManageService config)
     {
-        _rep = new UserRepository(context, config.GetConnectionString("ApiSettings", "SecretKey",
-            "C:\\Users\\igorp\\Programming\\WebAPI\\WebAPI\\Authorization\\Authorization.WebAPIs\\appsettings.json"));
+        _rep = rep;
+        _rep._secrep
     }
     
     [HttpPost("Login")]

@@ -1,0 +1,16 @@
+C:\Users\igorp\Programming\WebAPI\WebAPI\Authorization\Authorization.Application\bin\Debug\net8.0\Authorization.Application.deps.json
+C:\Users\igorp\Programming\WebAPI\WebAPI\Authorization\Authorization.Application\bin\Debug\net8.0\Authorization.Application.dll
+C:\Users\igorp\Programming\WebAPI\WebAPI\Authorization\Authorization.Application\bin\Debug\net8.0\Authorization.Application.pdb
+C:\Users\igorp\Programming\WebAPI\WebAPI\Authorization\Authorization.Application\bin\Debug\net8.0\Authorization.Domain.dll
+C:\Users\igorp\Programming\WebAPI\WebAPI\Authorization\Authorization.Application\bin\Debug\net8.0\Authorization.Domain.pdb
+C:\Users\igorp\Programming\WebAPI\WebAPI\Authorization\Authorization.Application\obj\Debug\net8.0\Authorization.Application.csproj.AssemblyReference.cache
+C:\Users\igorp\Programming\WebAPI\WebAPI\Authorization\Authorization.Application\obj\Debug\net8.0\Authorization.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\igorp\Programming\WebAPI\WebAPI\Authorization\Authorization.Application\obj\Debug\net8.0\Authorization.Application.AssemblyInfoInputs.cache
+C:\Users\igorp\Programming\WebAPI\WebAPI\Authorization\Authorization.Application\obj\Debug\net8.0\Authorization.Application.AssemblyInfo.cs
+C:\Users\igorp\Programming\WebAPI\WebAPI\Authorization\Authorization.Application\obj\Debug\net8.0\Authorization.Application.csproj.CoreCompileInputs.cache
+C:\Users\igorp\Programming\WebAPI\WebAPI\Authorization\Authorization.Application\obj\Debug\net8.0\Authorization.Application.sourcelink.json
+C:\Users\igorp\Programming\WebAPI\WebAPI\Authorization\Authorization.Application\obj\Debug\net8.0\Authorization.Application.csproj.CopyComplete
+C:\Users\igorp\Programming\WebAPI\WebAPI\Authorization\Authorization.Application\obj\Debug\net8.0\Authorization.Application.dll
+C:\Users\igorp\Programming\WebAPI\WebAPI\Authorization\Authorization.Application\obj\Debug\net8.0\refint\Authorization.Application.dll
+C:\Users\igorp\Programming\WebAPI\WebAPI\Authorization\Authorization.Application\obj\Debug\net8.0\Authorization.Application.pdb
+C:\Users\igorp\Programming\WebAPI\WebAPI\Authorization\Authorization.Application\obj\Debug\net8.0\ref\Authorization.Application.dll

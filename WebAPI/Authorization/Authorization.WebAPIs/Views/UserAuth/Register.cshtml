@@ -1,0 +1,13 @@
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+<form action="api/UserAuth/Register" method="post">
+    <div class="form-group">
+        <lable for="loginUser">Login:</lable>
+        <input id="loginUser" class="form-control" name="Login"/>
+        <lable for="passwordUser">Password:</lable>
+        <input id="passwordUser" class="form-control" name="Password"/>
+        <br/>
+        <input type="submit" class="form-control" value="Send"/>
+    </div>
+</form>

@@ -166,15 +166,11 @@
           "dependencies": {
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Microsoft.Extensions.Configuration.Abstractions": {
-              "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -226,6 +222,9 @@
               },
               "C:\\Users\\igorp\\Programming\\WebAPI\\WebAPI\\Authorization\\Authorization.Domain\\Authorization.Domain.csproj": {
                 "projectPath": "C:\\Users\\igorp\\Programming\\WebAPI\\WebAPI\\Authorization\\Authorization.Domain\\Authorization.Domain.csproj"
+              },
+              "C:\\Users\\igorp\\Programming\\WebAPI\\WebAPI\\Authorization\\Authorization.Infrastructure\\Authorization.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\igorp\\Programming\\WebAPI\\WebAPI\\Authorization\\Authorization.Infrastructure\\Authorization.Infrastructure.csproj"
               }
             }
           }
@@ -248,7 +247,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",

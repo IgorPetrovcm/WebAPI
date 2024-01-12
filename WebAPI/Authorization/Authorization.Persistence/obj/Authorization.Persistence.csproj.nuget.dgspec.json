@@ -124,6 +124,75 @@
         }
       }
     },
+    "C:\\Users\\igorp\\Programming\\WebAPI\\WebAPI\\Authorization\\Authorization.Infrastructure\\Authorization.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\igorp\\Programming\\WebAPI\\WebAPI\\Authorization\\Authorization.Infrastructure\\Authorization.Infrastructure.csproj",
+        "projectName": "Authorization.Infrastructure",
+        "projectPath": "C:\\Users\\igorp\\Programming\\WebAPI\\WebAPI\\Authorization\\Authorization.Infrastructure\\Authorization.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\igorp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\igorp\\Programming\\WebAPI\\WebAPI\\Authorization\\Authorization.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\igorp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\igorp\\Programming\\WebAPI\\WebAPI\\Authorization\\Authorization.Application\\Authorization.Application.csproj": {
+                "projectPath": "C:\\Users\\igorp\\Programming\\WebAPI\\WebAPI\\Authorization\\Authorization.Application\\Authorization.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\igorp\\Programming\\WebAPI\\WebAPI\\Authorization\\Authorization.Persistence\\Authorization.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -153,6 +222,9 @@
               },
               "C:\\Users\\igorp\\Programming\\WebAPI\\WebAPI\\Authorization\\Authorization.Domain\\Authorization.Domain.csproj": {
                 "projectPath": "C:\\Users\\igorp\\Programming\\WebAPI\\WebAPI\\Authorization\\Authorization.Domain\\Authorization.Domain.csproj"
+              },
+              "C:\\Users\\igorp\\Programming\\WebAPI\\WebAPI\\Authorization\\Authorization.Infrastructure\\Authorization.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\igorp\\Programming\\WebAPI\\WebAPI\\Authorization\\Authorization.Infrastructure\\Authorization.Infrastructure.csproj"
               }
             }
           }
@@ -175,7 +247,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",

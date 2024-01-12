@@ -6,6 +6,7 @@ using Authorization.Application.DTOs;
 
 public interface IUserRepository
 {
+    
     bool IsUniqueUser(string login);
 
     Task<ResponseLoginDTO> Login(RequestLoginDTO requestLogin);

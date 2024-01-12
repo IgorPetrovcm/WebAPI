@@ -6,6 +6,7 @@ using Authorization.Application.Interfaces.Repository;
 using Authorization.Application.DTOs;
 using Authorization.Domain;
 using Authorization.Application.DTOs.mappers;
+using Authorization.Infrastructure.Services;
 
 using Microsoft.EntityFrameworkCore;
 
@@ -21,10 +22,14 @@ public class UserRepository : IUserRepository
     private readonly ApplicationContext _context;
 
     private string _secretKey;
-    public UserRepository(ApplicationContext context, string secretKey)
+    public UserRepository(ApplicationContext context)
     {
         _context = context;
-        _secretKey = secretKey;
+    }
+
+    public void SetSecretKey()
+    {
+        _secretKey = 
     }
     
     public bool IsUniqueUser(string login)

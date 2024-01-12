@@ -1,0 +1,12 @@
+C:\Users\igorp\Programming\WebAPI\WebAPI\Authorization\Authorization.Domain\bin\Debug\net8.0\Authorization.Domain.deps.json
+C:\Users\igorp\Programming\WebAPI\WebAPI\Authorization\Authorization.Domain\bin\Debug\net8.0\Authorization.Domain.dll
+C:\Users\igorp\Programming\WebAPI\WebAPI\Authorization\Authorization.Domain\bin\Debug\net8.0\Authorization.Domain.pdb
+C:\Users\igorp\Programming\WebAPI\WebAPI\Authorization\Authorization.Domain\obj\Debug\net8.0\Authorization.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\igorp\Programming\WebAPI\WebAPI\Authorization\Authorization.Domain\obj\Debug\net8.0\Authorization.Domain.AssemblyInfoInputs.cache
+C:\Users\igorp\Programming\WebAPI\WebAPI\Authorization\Authorization.Domain\obj\Debug\net8.0\Authorization.Domain.AssemblyInfo.cs
+C:\Users\igorp\Programming\WebAPI\WebAPI\Authorization\Authorization.Domain\obj\Debug\net8.0\Authorization.Domain.csproj.CoreCompileInputs.cache
+C:\Users\igorp\Programming\WebAPI\WebAPI\Authorization\Authorization.Domain\obj\Debug\net8.0\Authorization.Domain.sourcelink.json
+C:\Users\igorp\Programming\WebAPI\WebAPI\Authorization\Authorization.Domain\obj\Debug\net8.0\Authorization.Domain.dll
+C:\Users\igorp\Programming\WebAPI\WebAPI\Authorization\Authorization.Domain\obj\Debug\net8.0\refint\Authorization.Domain.dll
+C:\Users\igorp\Programming\WebAPI\WebAPI\Authorization\Authorization.Domain\obj\Debug\net8.0\Authorization.Domain.pdb
+C:\Users\igorp\Programming\WebAPI\WebAPI\Authorization\Authorization.Domain\obj\Debug\net8.0\ref\Authorization.Domain.dll

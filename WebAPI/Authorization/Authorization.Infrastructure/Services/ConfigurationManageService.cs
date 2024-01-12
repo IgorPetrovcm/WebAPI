@@ -6,12 +6,18 @@ using Microsoft.Extensions.Configuration;
 
 public class ConfigurationManageService : IConfigurationManageService
 {
-    public string GetConnectionString(string sectionName,string keyName, string pathToFileString)
+    private string _value;
+    public string Value
+    {
+        get { return _value; }
+    } 
+    
+    public void SetConfiguration(string sectionName,string keyName, string pathToFileString)
     {
         IConfigurationBuilder configBuilder = new ConfigurationBuilder().AddJsonFile(pathToFileString);
 
         IConfigurationRoot config = configBuilder.Build();
 
-        return config.GetSection(sectionName)[keyName];
+        _value = config.GetSection(sectionName)[keyName];
     }
 }

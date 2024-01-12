@@ -9,6 +9,8 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddControllersWithViews();
+
 builder.Services.AddDbContext<ApplicationContext>(options =>
 {
     options.UseNpgsql(builder.Configuration.GetConnectionString("PostgreSql"));
@@ -18,10 +20,8 @@ builder.Services.AddTransient<IConfigurationManageService, ConfigurationManageSe
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 
-builder.Services.AddControllersWithViews();
-
 var app = builder.Build();
 
-app.MapGet("/", () => "Hello World!");
+app.MapControllerRoute("default", "{controller=UserAuth}/{action=Register}");
 
 app.Run();
