@@ -29,3 +29,7 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/igorp/Programming/WebAPI/WebAPI/Authorization/Authorization.WebAPIs/Views/UserAuth/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckF1dGhcUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/igorp/Programming/WebAPI/WebAPI/Authorization/Authorization.WebAPIs/Views/UserProfile/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclByb2ZpbGVcUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

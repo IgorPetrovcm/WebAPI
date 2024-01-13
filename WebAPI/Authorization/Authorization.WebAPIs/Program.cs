@@ -25,6 +25,8 @@ builder.Services.AddTransient<IConfigurationManageService, ConfigurationManageSe
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 
+builder.Services.AddAuthorization();
+
 builder.Services.AddAuthentication(x =>
     {
         x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
