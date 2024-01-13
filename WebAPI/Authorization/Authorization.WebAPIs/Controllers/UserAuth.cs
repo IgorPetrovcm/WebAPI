@@ -12,7 +12,6 @@ public class UserAuth : Controller
     {
         return RedirectPermanent(path);
     }
-
-    [Authorize]
+    
     public IActionResult Login() => View();
 }

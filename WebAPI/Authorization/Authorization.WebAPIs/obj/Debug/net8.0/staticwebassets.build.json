@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eR3u+PKY+l3qzopuBvIPTIENUghUGvGL8ExBt6pvaqo=",
+  "Hash": "PO8czO2f+n8wITzzxQ2opNRESVmD3QxXAcIauVb9sBM=",
   "Source": "Authorization.WebAPIs",
   "BasePath": "_content/Authorization.WebAPIs",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\igorp\\Programming\\WebAPI\\WebAPI\\Authorization\\Authorization.WebAPIs\\wwwroot\\js\\login.js",
+      "SourceId": "Authorization.WebAPIs",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\igorp\\Programming\\WebAPI\\WebAPI\\Authorization\\Authorization.WebAPIs\\wwwroot\\",
+      "BasePath": "_content/Authorization.WebAPIs",
+      "RelativePath": "js/login.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\login.js"
+    },
     {
       "Identity": "C:\\Users\\igorp\\Programming\\WebAPI\\WebAPI\\Authorization\\Authorization.WebAPIs\\wwwroot\\js\\registeration.js",
       "SourceId": "Authorization.WebAPIs",
