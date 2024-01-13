@@ -1,7 +1,7 @@
 namespace WebApplication1.Controllers;
 
 using Microsoft.AspNetCore.Mvc;
-
+using Microsoft.AspNetCore.Authorization;
 
 public class UserAuth : Controller
 {
@@ -12,4 +12,7 @@ public class UserAuth : Controller
     {
         return RedirectPermanent(path);
     }
+
+    [Authorize]
+    public IActionResult Login() => View();
 }

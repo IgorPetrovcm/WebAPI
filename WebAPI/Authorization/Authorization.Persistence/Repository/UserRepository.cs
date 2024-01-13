@@ -75,7 +75,7 @@ public class UserRepository : IUserRepository
                 new Claim(ClaimTypes.Name ,user.Id.ToString()),
                 new Claim(ClaimTypes.Role, user.Role)
             }),
-            Expires = DateTime.Now.AddDays(3),
+            Expires = DateTime.Now.AddMinutes(3),
             SigningCredentials = new (new SymmetricSecurityKey(keyBytes),SecurityAlgorithms.HmacSha256Signature)
         };
 
